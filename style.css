@@ -1,0 +1,212 @@
+<link rel="stylesheet" type="text/css"
+      href="https://fonts.googleapis.com/css?family="Tangerine|Inconsolata|Droid+Sans|Arvo">
+
+html{
+	font-size: 100%
+}
+body{
+	background-image:url(bimage2.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: ease-out 2s ease-in ;
+	animation-fill-mode: forwards;
+}
+.heading{
+	text-align:center; font-family: arial; 
+	font-size: 3.4vw;
+    color:black;  
+	background-color: rgb(215,254,186);
+	width: 25vw;height: 4.3vw; 
+	border: 2px solid black;
+	position: absolute;
+	margin:0vw auto;
+	top:0%;left:39%;
+	box-shadow: 0px 0px 15px 1px #456b66;
+	text-shadow: 0.01vw 0.01vw 0.02vw black,0 0 0.25vw blue, 0 0 0.05vw darkblue;
+}
+.teimage
+{
+	background-color: rgb(215,254,186);
+	background-image: url(bimages.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: multiply;
+	border:0.7vw solid black;
+	border-style: double;
+	border-top-left-radius: 2vw;
+	border-top-right-radius: 2vw;
+	border-bottom-left-radius: 2vw;
+	border-bottom-right-radius: 2vw;
+	height: 45vw; width: 80vw;
+	margin:auto;
+	margin-top: 0.2vw;
+	padding:auto;
+}
+
+.intro{
+	border:0.7vw solid black;
+	color: black;
+	font-family: verdana;
+	font-size: 1.5vw;
+	position: absolute;
+	margin:21vw 0vw 0vw 5vw;
+	padding: auto;
+	padding-left: 0.2vw;
+    border-top-left-radius: 2vw;
+	border-top-right-radius: 2vw;
+	border-bottom-left-radius: 2vw;
+	border-bottom-right-radius: 2vw;
+	border-style: double;
+	height: 15vw;width:70vw;
+	background-blend-mode:color-dodge;
+	box-shadow: 0px 0px 15px 1px #456b66
+}
+.image{
+	display: block;
+	margin:auto;
+	margin-right: 40vw;
+	margin-top: 0.7vw;
+	margin-bottom: 0vw;
+	position: absolute;
+	top:12vw; left: 40vw;
+    border:solid 2px black; 
+    box-shadow: 0px 0px 15px 1px #456b66;   
+ 
+}
+
+.scroll-bar{
+	font-size: 2vw;font-family:arial;
+	width: 85%;height: 3vw;
+	border:outset 2px black;
+	margin: 0 auto;
+	margin-top: 7vw;
+	margin-bottom: 1vw;
+	padding-bottom: 0.2vw;
+	padding-top: 0.2vw;
+	background-color: rgb(215,254,186);
+	border-radius: 2vw;
+	text-shadow: 0.01vw 0.01vw 0.02vw black,0 0 0.25vw blue, 0 0 0.05vw darkblue;
+	box-shadow: 0px 0px 15px 1px #456b66;
+}
+.intro1{
+	border:0.2vw solid black;
+	background-image: url(bimage1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: black;
+	font-family: verdana;
+	font-size: 1.5vw;
+	border-top-left-radius: 2vw;
+	border-top-right-radius: 2vw;
+	border-bottom-left-radius: 2vw;
+	border-bottom-right-radius: 2vw;
+	position: absolute;
+	margin:2vw 0vw 0vw 15vw;
+	padding:1vw;
+	padding-left: 0.7vw;
+	height: 40vw;width:70vw;
+	background-color: rgb(215,254,186);
+	box-shadow: 0px 0px 15px 1px #456b66;
+}
+.intro3{
+	border:0.7vw solid black;
+	border-style: double;
+	border-top-left-radius: 2vw;
+	border-top-right-radius: 2vw;
+	border-bottom-left-radius: 2vw;
+	border-bottom-right-radius: 2vw;
+    background-color:white;
+    font-size: 1.5vw;
+    opacity: 0.7;
+	margin-left: 2vw;
+	margin-right: 52vw;
+	margin-top: 2vw;
+	height: 72vh;
+	padding: auto;
+	box-shadow: 0px 0px 15px 1px #456b66;
+}
+.intro4{
+	border:0.7vw solid black;
+	border-style: double;
+	border-top-left-radius: 2vw;
+	border-top-right-radius: 2vw;
+	border-bottom-left-radius: 2vw;
+	border-bottom-right-radius: 2vw;
+    background-color:white;
+    font-size: 1.5vw;
+    opacity: 0.8;
+	margin-left: 52vw;
+	margin-right: 2vw;
+	margin-top: -36.5vw;
+	height: 72vh;
+	padding: auto;
+	padding-left: 0.5vw;
+	box-shadow: 0px 0px 15px 1px #456b66;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+nav li{
+	width: 25%;
+	text-align: center;
+}
+nav a{	
+	display: block;	
+	padding: 5px 0;
+	margin:0 auto;	
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	box-sizing: border-box;
+}
+nav a:hover{
+	font-weight:bolder;
+}
+.side{
+	border:0.5vw solid black;
+	background-color: rgb(251,188,170);
+	border-style: double;
+	margin-right: 65vw;
+	margin-left: -5vw;
+	margin-top: 2vw;
+	padding: auto;
+	padding-left: 3vw;
+	font-family: tahoma;
+}
+.side1{
+	border:0.5vw solid black;
+	background-color: rgb(251,188,170);
+	border-style: double;
+	margin-right: 60vw;
+	margin-left: -5vw;
+	padding: auto;
+	padding-left: 2vw;
+	font-family: tahoma;
+
+}
+.side2{
+	border:0.5vw solid black;
+	background-color: rgb(251,188,170);
+	border-style: double;
+	margin-right: 65vw;
+	margin-left: -5vw;
+	margin-top: 1vw;
+	padding: auto;
+	padding-left: 2vw;
+	font-family: tahoma;
+}
+.img{
+	padding-left:3vw;
+
+}
+.img1{
+	margin-left: 15vw;
+	margin-top: -3.5vw;
+}
+.img2{
+	margin-left: 30vw;
+	margin-top: -4vw;
+}
